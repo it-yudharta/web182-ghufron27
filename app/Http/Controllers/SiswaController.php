@@ -25,7 +25,7 @@ class SiswaController extends Controller
     public function create(Request $request)
     {
         \App\Siswa::create($request->all());
-        return redirect('/siswa')->with('sukses','data berhasil di update');
+        return redirect('/siswa')->with('sukses','data berhasil diinput');
     }
 
     /**
